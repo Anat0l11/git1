@@ -49,12 +49,11 @@ git checkout --theirs a.txt
 git add a.txt
 git commit -m "added theirs"
 
-
-
 Сделал вам тестовый репозиторий, чтобы сразу клонировать и посмотреть, как оно работает.
 git clone https://github.com/NickVolynkin/git-merge-test.git
 cd git-merge-test
 git merge otherbranch
 open a.txt
+
 ## Удаление веток
-Если вы хотите удалить ветку, введите командум git branch -d *название ветки*
+Если вы хотите удалить ветку, введите командум git branch -d *название ветки*.
